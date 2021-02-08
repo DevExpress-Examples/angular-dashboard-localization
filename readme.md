@@ -1,4 +1,4 @@
-# Dashboard for ASP.NET Core - Localization
+# Dashboard for Angular - Localization
 
 Text
 
