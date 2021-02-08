@@ -1,11 +1,11 @@
-# Title
+# Dashboard for ASP.NET Core - Localization
 
 Text
 
 <!-- default file list -->
 *Files to look at*:
 
-* [Default.aspx](./CS/Default.aspx)
-* [Default.aspx.cs](./CS/Default.aspx.cs)
-* ...
+* [Startup.cs](./asp-net-core-server/Startup.cs)
+* [app.component.ts](./dashboard-angular-app/src/app/app.component.ts)
+
 <!-- default file list end -->
