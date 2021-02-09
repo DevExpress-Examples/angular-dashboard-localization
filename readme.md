@@ -22,7 +22,7 @@ The example has the following structure:
 
 <!-- default file list end -->
 
-The **dashboard-angular-app** project shows how to localize a client application with the [component-specific JSON files](https://docs.devexpress.com/Dashboard/402538/web-dashboard/dashboard-component-for-angular/localization#localize-ui) for the German market (the `de` culture). Intl is used to format to dates, numbers, and currencies.
+The **dashboard-angular-app** project shows how to localize a client application with the [component-specific JSON files](https://docs.devexpress.com/Dashboard/402538/web-dashboard/dashboard-component-for-angular/localization#localize-ui) for the German market (the `de` culture). Intl is used to format dates, numbers, and currencies.
 
 ### Server Localization
 <!-- default file list -->
