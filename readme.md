@@ -56,6 +56,7 @@ Open ```http://localhost:4200/``` in your browser to see the result.
 ## Documentation
 
 - [Localize Dashboard Component for Angular](https://docs.devexpress.com/Dashboard/402538/web-dashboard/dashboard-component-for-angular/localization)
+- [Install DevExpress Controls Using NuGet Packages](https://docs.devexpress.com/GeneralInformation/115912/installation/install-devexpress-controls-using-nuget-packages)
 
 
 ## More Examples
