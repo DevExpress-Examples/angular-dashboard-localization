@@ -20,22 +20,19 @@ The example has the following structure:
 - The [dashboard-angular-app](dashboard-angular-app) folder contains the client application built with Angular.
 
 ### Client Localization
-<!-- default file list -->
-*Files to look at*:
+
+*Files to review*:
 
 * [app.component.ts](./dashboard-angular-app/src/app/app.component.ts)
 
-<!-- default file list end -->
 
 The **dashboard-angular-app** project shows how to localize a client application with the [component-specific JSON files](https://docs.devexpress.com/Dashboard/402538/web-dashboard/dashboard-component-for-angular/localization#localize-ui) for the German market (the `de` culture). Intl is used to format dates, numbers, and currencies.
 
 ### Server Localization
-<!-- default file list -->
-*Files to look at*:
+
+*Files to review*:
 
 * [Startup.cs](./asp-net-core-server/Startup.cs#L45)
-
-<!-- default file list end -->
 
 Since the Web Dashboard exports data on the server side, you need to localize the server to complete the localization process. The **asp-net-core-server** project contains satellite resource assemblies for the German culture.
 
