@@ -3,7 +3,6 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.AspNetCore.Dashboard.de" Version="22.2.2" />
+    <PackageReference Include="DevExpress.AspNetCore.Dashboard.de" Version="23.2.3" />
   </ItemGroup>
 </Project>
-
