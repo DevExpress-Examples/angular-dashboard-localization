@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
+import { DxDashboardControlModule } from 'devexpress-dashboard-angular';
+import { DxButtonModule } from 'devextreme-angular';
 import { ResourceManager } from 'devexpress-dashboard';
 import { locale } from "devextreme/localization";
 import dashboardDE from '../../json resources/dx-dashboard.de.json';
@@ -6,8 +10,10 @@ import analyticsDE from '../../json resources/dx-analytics-core.de.json';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
+  imports: [CommonModule, RouterOutlet, DxDashboardControlModule, DxButtonModule],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
   constructor() {
