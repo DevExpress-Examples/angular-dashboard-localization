@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
 import { DxDashboardControlModule } from 'devexpress-dashboard-angular';
 import { DxButtonModule } from 'devextreme-angular';
 import { ResourceManager } from 'devexpress-dashboard';
@@ -10,8 +9,7 @@ import analyticsDE from '../../json resources/dx-analytics-core.de.json';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet, DxDashboardControlModule, DxButtonModule],
+  imports: [CommonModule, DxDashboardControlModule, DxButtonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
