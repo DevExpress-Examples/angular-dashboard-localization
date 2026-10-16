@@ -17,7 +17,7 @@ The example shows how to localize the Dashboard component in an Angular applicat
 
 The example has the following structure:
 
-- The [asp-net-core-server](asp-net-core-server) folder contains the backend project built with ASP.NET Core 3.1.
+- The [asp-net-core-server](asp-net-core-server) folder contains the backend project.
 - The [dashboard-angular-app](dashboard-angular-app) folder contains the client application built with Angular.
 
 ### Client Localization
